@@ -1,0 +1,153 @@
+\documentclass[]{aastex61}
+% These are the available options:
+% twocolumn :	two text columns, 10 point font, single spaced article.
+%			This is the most compact and represent the final published
+%			derived PDF copy of the accepted manuscript from the publisher
+% manuscript :	one text column, 12 point font, double spaced article.
+% preprint :	one text column, 12 point font, single spaced article. 
+% preprint2 :	two text columns, 12 point font, single spaced article.
+% modern :	a stylish, single text column, 12 point font, article with
+%			wider left and right margins. 
+% astrosymb :	Loads Astrosymb font and define \astrocommands. 
+% tighten :	Makes baselineskip slightly smaller, only works with 
+%			the twocolumn substyle.
+% times :		uses times font instead of the default
+% linenumbers :	turn on lineno package.
+% trackchanges :	required to see the revision mark up and print its output
+% longauthor :		Do not use the more compressed footnote style (default) for 
+%				the author/collaboration/affiliations. Instead print all
+%				affiliation information after each name. Creates a much
+%				long author list but may be desirable for short author papers
+
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand\aastex{AAS\TeX}
+\newcommand\latex{La\TeX}
+
+\received{-}
+\revised{-}
+\accepted{-}
+\submitjournal{ApJ}
+
+\begin{document}
+
+\title{\LaTeX\ Tabula rasa}
+
+\correspondingauthor{Chris Lowder}
+\email{chris.lowder@durham.ac.uk}
+
+\author[0000-0001-8318-8229]{Chris Lowder}
+\affil{Department of Mathematical Sciences \\
+Durham University \\
+Durham DH1 3LE, United Kingdom}
+
+%% Mark off the abstract in the ``abstract'' environment. 
+\begin{abstract}
+
+\LaTeX\ ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas ex metus, a ornare sapien facilisis a. Praesent et erat semper augue molestie feugiat et a sem. Vivamus ut sapien arcu. Aenean pulvinar vulputate massa, at ornare nunc cursus vitae. Donec fringilla, nisl ac tristique efficitur, nibh orci ultrices urna, a interdum quam neque vitae sapien. Nullam eleifend ex nec tincidunt rutrum. Mauris hendrerit nibh malesuada, gravida justo eget, maximus neque. Quisque dui mi, blandit et est nec, dignissim sodales urna. Etiam id arcu in lacus condimentum pulvinar sed sed urna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent aliquam justo et erat dapibus, quis lobortis velit tempus. Morbi a vehicula lorem, non finibus dolor. Sed et faucibus orci. Integer posuere convallis ipsum eget imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus pharetra tortor ut purus pellentesque, at eleifend dui placerat.
+
+\end{abstract}
+
+\section{Introduction} \label{sec:introduction}
+
+Donec quis vulputate elit. Fusce faucibus augue neque, sed pharetra mauris efficitur ac. Vivamus sodales luctus elit, sit amet ultrices leo dapibus vitae. Etiam velit massa, pretium ac hendrerit sed, sollicitudin ac velit. Sed finibus mollis enim, et mattis eros tempus ac. Mauris congue erat a ipsum tempus mollis. Cras vel ullamcorper lectus. Aliquam nibh turpis, convallis quis tempus sit amet, consectetur non odio. Mauris scelerisque, est in dictum laoreet, dolor ex auctor turpis, sit amet lacinia purus nisl eget risus. Praesent porta diam velit, ac fringilla est scelerisque nec. Curabitur non massa finibus, sollicitudin tortor non, tincidunt dui \citep{1859MNRAS..20...13C}.
+
+Proin ut nibh scelerisque, mollis erat in, sagittis risus. Nunc volutpat turpis vel augue suscipit bibendum. In in interdum metus. Donec porttitor orci id sem volutpat placerat. Nam sollicitudin massa vel varius interdum. Phasellus luctus tellus non justo bibendum, nec eleifend nisl laoreet. Ut vitae nibh purus. Integer tempus mollis vulputate. Cras lacinia convallis congue. Morbi gravida id lorem sit amet interdum. Nullam et luctus leo. Maecenas lorem sapien, malesuada quis mauris vel, eleifend dictum orci. Cras vel tristique ipsum. Etiam rhoncus cursus ex sed vehicula. Mauris eget urna commodo, accumsan erat ac, convallis massa.
+
+Donec erat leo, congue non est quis, venenatis semper est. Fusce scelerisque volutpat auctor. Sed imperdiet elementum convallis. Vestibulum rutrum volutpat dolor. Donec pharetra orci sit amet neque fringilla, vel dignissim turpis commodo. Vestibulum bibendum augue vehicula libero vestibulum, et eleifend nisl tincidunt. Vivamus ut laoreet lectus. Ut tempor enim id risus semper tincidunt. Donec scelerisque dui et semper pulvinar. Aliquam enim risus, aliquet eget convallis laoreet, tincidunt vel purus. Morbi ac sapien nec erat posuere mollis. Donec a erat dapibus, finibus arcu a, lacinia sem. Nunc vestibulum condimentum lectus in iaculis. Praesent quis sem pulvinar, vestibulum sapien in, dignissim nibh. In eget tincidunt lacus. Cras in felis tortor.
+
+\section{Methodology} \label{sec:methodology}
+
+Nunc ornare luctus odio, id rutrum justo volutpat in. Praesent nec felis leo. In mollis velit risus, et laoreet elit rhoncus id. Nullam sed mattis elit. Morbi volutpat turpis tortor, eget malesuada sapien accumsan eget. Proin non tincidunt magna. In facilisis vulputate ligula, eget tempus est pellentesque et. Sed vestibulum augue a velit ornare elementum. Fusce aliquam et enim at dapibus. Vivamus et diam suscipit, dapibus risus tincidunt, varius sapien. Phasellus eu nulla elit. Quisque aliquam ullamcorper convallis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent euismod condimentum elementum. Ut efficitur eu purus non iaculis. Curabitur ligula tortor, accumsan vitae ante nec, aliquam auctor urna.
+
+\begin{deluxetable}{ccCDr}
+\tablecaption{Some sample data in a table\tablenotemark{a} \label{tab:table}}
+\tablecolumns{5}
+\tablenum{2}
+\tablewidth{0pt}
+\tablehead{
+\colhead{UT start time\tablenotemark{a}} &
+\colhead{MJD start time\tablenotemark{a}} &
+\colhead{Seeing} & \twocolhead{Number} & \colhead{Filter}\\
+\colhead{(YYYY-mm-dd)} & \colhead{(d)} &
+\colhead{(arcsec)} & \twocolhead{} & \colhead{}
+}
+\startdata
+\decimals
+2012-03-26 & 56012.997 & \sim 0.\arcsec5 & 2.71828 & H$\alpha$\\
+2012-03-27 & 56013.944 & 1.\arcsec5 & 3.14159 & grism\\
+2012-03-28 & 56014.984 & \nodata & 0.6434 & F814M\\
+2012-03-30 & 56016.978 & 1.\arcsec5\pm0.25 & 42.000 & B\&C\\
+\enddata
+\tablenotetext{a}{DELUXE table, thank you very much!}
+\end{deluxetable}
+
+Duis sollicitudin facilisis semper. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer felis leo, luctus et tristique at, cursus nec nisl. In ut semper quam, in lacinia justo. Etiam lacinia vitae tortor ut volutpat. Curabitur elit magna, aliquet vel lectus nec, posuere feugiat purus. Phasellus consequat egestas justo vel ultrices. Nullam maximus, erat ac volutpat blandit, justo diam molestie mi, quis congue tortor urna at libero. Duis a mi at augue imperdiet rutrum eget quis erat. Donec lacinia pretium velit, non fringilla tortor eleifend nec. Integer id justo interdum sem consectetur mattis. Nunc eu nulla at metus consequat suscipit.
+
+Pellentesque faucibus eu tortor fringilla auctor. Duis id euismod nibh, ac rhoncus nulla. In nec laoreet magna, sed luctus dolor. Suspendisse iaculis erat at feugiat sodales. Pellentesque tempus, leo nec pulvinar tincidunt, sem sem posuere lectus, in vestibulum turpis arcu sed ante. Aliquam eget sapien vitae odio volutpat ornare. Sed porta turpis tortor, sit amet consectetur ex tempus in. Aenean mollis diam nec lacus dignissim mattis. Morbi consectetur purus quis tortor ultricies, ac accumsan orci porta. Aliquam pretium, nibh eu tempus congue, eros erat elementum eros, eget tincidunt justo turpis dictum magna.
+
+\begin{equation} \label{eqn:induction}
+\frac{\partial \vec{B}}{\partial t} = \nabla \times (\vec{v} \times \vec{B}) + \eta \nabla^2 \vec{B}
+\end{equation}
+
+\begin{eqnarray} \label{eqn:other}
+\nabla \cdot \vec{B} &=& 0 \\
+\vec{j} &=& \nabla \times \vec{B} / \mu \\
+\vec{E} &=& - \vec{v} \times \vec{B} + \vec{j} / \sigma
+\end{eqnarray}
+
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc a enim sit amet nisl commodo condimentum non sit amet est. Curabitur sit amet bibendum leo. Nunc eget viverra purus. Quisque dapibus quam condimentum, vestibulum nunc vel, feugiat metus. Duis neque nunc, interdum ac placerat sit amet, volutpat at libero. Aenean consectetur, lacus ut ullamcorper auctor, nunc felis rhoncus sem, quis sagittis diam quam vitae sapien. Vestibulum facilisis tortor eget porttitor vehicula. Suspendisse nibh libero, sodales ac lobortis id, pulvinar at ante. Suspendisse massa enim, efficitur in mauris vitae, convallis malesuada turpis. Sed et dolor venenatis lectus eleifend fermentum. Morbi auctor ante eu justo blandit accumsan. Nulla orci sapien, lobortis id egestas vel, tempus quis massa.
+
+Nulla gravida libero sit amet mi commodo, ac mattis eros vulputate. Aenean eros dui, elementum at tincidunt et, laoreet quis tellus. Suspendisse nisi est, hendrerit fringilla varius in, tristique vel ligula. Praesent id ipsum eget sapien dignissim interdum sed sed erat. Aliquam blandit, dolor in malesuada convallis, eros augue porttitor mauris, a feugiat ipsum turpis nec leo. Nam laoreet vehicula nibh nec vulputate. Etiam eu convallis orci. Sed et orci diam. Nunc eget condimentum metus. Vivamus semper quis lectus a fringilla. Pellentesque iaculis dapibus augue vel hendrerit. Curabitur cursus augue vel sapien commodo egestas. Mauris dapibus euismod diam vel mattis. Mauris egestas lacus et turpis blandit, eget iaculis eros hendrerit.
+
+\begin{figure}[ht!]
+\plotone{fig/f01.pdf}
+\caption{Curabitur consequat imperdiet lacinia. Maecenas risus enim, efficitur vel risus non, dignissim aliquet nisl. Vestibulum placerat neque at libero ultricies, quis efficitur ex blandit. Sed pellentesque a ex sed congue. Duis convallis ipsum at tristique varius. Duis scelerisque condimentum dapibus. Pellentesque egestas varius faucibus. Table~\ref{tab:table}.}
+\label{fig:figure}
+\end{figure}
+
+Vestibulum ultricies at magna ac faucibus. Proin maximus dictum sem, eget lacinia est scelerisque eget. Suspendisse congue dolor ligula, nec tempus lorem pretium ac. Mauris suscipit pharetra urna vel hendrerit. Sed tincidunt vitae velit sit amet ultrices. Phasellus ligula elit, sagittis molestie erat aliquam, sagittis suscipit felis. Phasellus hendrerit ipsum vel hendrerit ultrices. Proin interdum, nisl eget bibendum pellentesque, erat mauris placerat metus, in scelerisque risus ante non enim. Aliquam tincidunt ex orci, at consectetur lectus blandit non. Phasellus efficitur nibh sed purus facilisis rutrum. Donec sodales, mauris ac ultricies venenatis, leo sapien convallis sem, eget posuere nisi turpis eget velit.
+
+Praesent blandit turpis et iaculis suscipit. Maecenas et lacus et odio semper luctus eget eu libero. Proin et pharetra nisi. Vivamus non magna id ante luctus tristique quis ut tortor. Praesent eleifend vehicula mi at auctor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut bibendum vulputate ante quis consequat.
+
+Vivamus a aliquam est, in mollis mi. Mauris at varius augue. Nulla turpis nulla, faucibus vitae purus non, convallis blandit neque. Praesent id magna dignissim, auctor nisi quis, scelerisque ex. Nam rutrum tempor ullamcorper. Aliquam erat volutpat. Aenean ligula est, malesuada luctus pharetra sit amet, suscipit vitae ex. Quisque ornare rhoncus libero quis cursus. Praesent in magna mi. Praesent suscipit justo eros, eget dignissim massa lobortis sed. Aliquam ultrices finibus metus a cursus.
+
+In eget neque semper, vulputate augue vel, tempor neque. In pellentesque lorem in turpis euismod, vitae condimentum erat volutpat. Quisque non magna elit. Cras vitae nisi quis ante auctor bibendum sit amet eu justo. Cras tristique hendrerit imperdiet. Vivamus eget malesuada elit, vitae faucibus odio. Sed ac consectetur risus, a vulputate turpis. In at urna non enim tempor gravida ut sed urna. Etiam varius odio odio, a laoreet justo dignissim nec. Donec arcu lacus, imperdiet at malesuada ac, accumsan fringilla nisl. Sed quis orci vitae libero consectetur lacinia. Nullam mattis elementum nisi, eget dignissim felis feugiat at. In eget dapibus ex, feugiat laoreet diam. Curabitur feugiat, dolor ac condimentum auctor, nisi nibh vulputate sem, eu semper magna nibh ac odio.
+
+\begin{figure}[ht!]
+\plottwo{fig/f02.pdf}{fig/f03.pdf}
+\caption{Curabitur consequat imperdiet lacinia. Maecenas risus enim, efficitur vel risus non, dignissim aliquet nisl. Vestibulum placerat neque at libero ultricies, quis efficitur ex blandit. Sed pellentesque a ex sed congue. Duis convallis ipsum at tristique varius. Duis scelerisque condimentum dapibus. Pellentesque egestas varius faucibus. Figure~\ref{fig:figure}.}
+\label{fig:figure2}
+\end{figure}
+
+Aenean sagittis lorem tortor, at pharetra lorem vulputate ac. Quisque dapibus egestas sem, consectetur fermentum tellus lobortis ut. Sed non hendrerit justo. Quisque sit amet elit metus. Suspendisse potenti. Vestibulum sed scelerisque nisl, ac congue justo. Ut tortor elit, pellentesque non sapien ut, scelerisque ultricies purus. Quisque pretium neque libero, vel luctus augue efficitur vel. Nulla imperdiet facilisis urna in dignissim. Vivamus euismod pulvinar dolor, sit amet elementum lorem molestie vel. Aenean massa nibh, varius vitae lacus ut, ultrices consequat tellus.
+
+\section{Discussion} \label{sec:discussion}
+
+Curabitur vitae enim nec ligula dictum dictum. Etiam at diam dapibus, maximus dolor vel, commodo sem. Donec nec eros ante. Morbi luctus risus urna. Vivamus cursus felis ut lorem tempor, quis rhoncus ipsum aliquet. Nam dignissim est posuere, efficitur nisi et, euismod nunc. Fusce dignissim enim sed eleifend elementum. Aliquam orci nunc, fringilla vel elit consectetur, elementum varius neque. In finibus urna ultricies neque auctor, vitae pellentesque dui sollicitudin. Vivamus enim magna, ultrices id fermentum quis, scelerisque in purus. Pellentesque ac orci turpis. Praesent imperdiet sit amet diam in cursus. Vestibulum et nibh pellentesque, pulvinar magna ut, bibendum tortor.
+
+Pellentesque egestas vestibulum sem, vitae efficitur augue consequat a. Vivamus pretium, ipsum sed feugiat sollicitudin, odio augue feugiat massa, non consequat nunc ex sit amet risus. Aenean bibendum dictum nisi, et lacinia dolor finibus a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris euismod lectus lacus, nec dictum metus sodales ut. Aliquam commodo sodales dui, vitae hendrerit nibh pulvinar vel. Fusce eu est fringilla, porttitor ex a, sodales ipsum.
+
+In eget nisl et turpis bibendum finibus. Ut quis eleifend diam. Nam feugiat urna congue risus consequat, at porttitor enim volutpat. Pellentesque in tincidunt eros, eu lobortis justo. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam ornare velit pharetra massa efficitur pulvinar. Nulla vestibulum nibh felis, a euismod lorem accumsan id. Proin sed blandit leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+
+Praesent ut gravida sem, at dapibus magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis in justo a mauris dignissim bibendum. Donec ut nisi rhoncus, sodales lorem molestie, imperdiet lectus. Ut pellentesque tempor tincidunt. Ut tincidunt sollicitudin semper. Praesent lobortis odio vitae tristique rutrum. Duis non metus dignissim nulla elementum tempus. In sit amet lorem urna.
+
+\acknowledgments
+
+Vestibulum in tortor imperdiet leo tempus iaculis. Proin bibendum tempor auctor. Phasellus vel dictum lacus. Pellentesque maximus enim sem, vel pulvinar arcu interdum in. Cras sodales vel felis et tempus. Sed quis sem non est pretium congue. Vivamus non est nunc. Suspendisse congue consectetur dolor a consequat.
+
+\vspace{5mm}
+\facilities{SOHO, SDO, STEREO}
+
+\software{Python, IDL}
+
+%\appendix
+
+%\bibliographystyle{yahapj}
+\bibliography{template.bib}
+
+%% Include this line if you are using the \added, \replaced, \deleted
+%% commands to see a summary list of all changes at the end of the article.
+%\listofchanges
+
+\end{document}
